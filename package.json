@@ -1,8 +1,8 @@
 {
   "name": "binary-tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Binary tree data structure",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   ],
   "author": "larango",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "dist"
+  ]
 }
